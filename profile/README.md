@@ -1,22 +1,39 @@
-# Bellui
+<p align="center">
+  <a href="https://bellui.com"><img src="https://bellui.com/images/logo-256.webp" alt="Bellui" width="128" height="128"></a>
+</p>
 
-**Bellui** is a cross-platform UI toolkit for Go. One codebase builds apps for
-desktop (macOS, Windows, Linux), mobile (iOS, Android) and the web
-(WebAssembly), with Material Design 3 widgets and a WebGPU renderer. It began
-as a fork of [Fyne](https://github.com/fyne-io/fyne).
+<h1 align="center">Bellui</h1>
 
-- **Toolkit:** [bellui](https://github.com/belluikit/bellui)
-- **Component gallery:** [gallery](https://github.com/belluikit/gallery), a showcase of every widget and theme feature
-- **Website:** [bellui.com](https://bellui.com)
+<p align="center">
+  Native apps in Go, on every screen.<br>
+  <a href="https://bellui.com">bellui.com</a> ·
+  <a href="https://bellui.com/develop/">Get started</a> ·
+  <a href="https://bellui.com/docs/">Docs</a> ·
+  <a href="https://bellui.com/extensions/">Extensions</a>
+</p>
+
+**Bellui** is a UI toolkit for Go with Material Design 3 widgets and WebGPU
+rendering. One codebase builds apps for macOS, Windows, Linux, Android, iOS
+and the browser (WebAssembly). It began as a fork of
+[Fyne](https://github.com/fyne-io/fyne).
 
 ```sh
 go get github.com/belluikit/bellui@latest
 ```
 
+- **Toolkit:** [bellui](https://github.com/belluikit/bellui), including the
+  extension modules for [charts](https://bellui.com/extensions/charts/),
+  [data tables](https://bellui.com/extensions/tables/), a
+  [code editor](https://bellui.com/extensions/editor/),
+  [graphs](https://bellui.com/extensions/dag/) and
+  [media](https://bellui.com/extensions/mmedia/)
+- **Gallery:** every widget, theme and extension in one app,
+  [toured on the website](https://bellui.com/gallery/)
+
 ## Libraries behind Bellui
 
-These are maintained for Bellui, and each can also be used on its own. Most are
-forks; each repository's README credits its upstream.
+Maintained for Bellui, and each usable on its own. Most are forks; each
+repository's README credits its upstream.
 
 | Repository | What it is |
 |---|---|
@@ -29,19 +46,21 @@ forks; each repository's README credits its upstream.
 | [fsnotify](https://github.com/belluikit/fsnotify) | Cross-platform filesystem notifications |
 | [gocef](https://github.com/belluikit/gocef) · [gocef-libs](https://github.com/belluikit/gocef-libs) | Chromium Embedded Framework bindings for the Linux web view, and its pinned runtime |
 | [goffmpeg](https://github.com/belluikit/goffmpeg) · [goffmpeg-libs](https://github.com/belluikit/goffmpeg-libs) | FFmpeg bindings and prebuilt LGPL libraries for media playback and capture |
-| [clair](https://github.com/belluikit/clair) | Knowledge-base assistant for code |
-| [uploader](https://github.com/belluikit/uploader) | Resumable file upload and download over gRPC |
 
-## Also from belluikit
+## Tools
 
 | Repository | What it is |
 |---|---|
-| [alidade](https://github.com/belluikit/alidade) | Whole-repository code graph for AI agents, served over MCP |
+| [**Alidade**](https://github.com/belluikit/alidade) | A map of your whole repository for AI coding agents, served over MCP: who calls what, built by the compilers ([more](https://bellui.com/tools/alidade/)) |
+| [Clair](https://github.com/belluikit/clair) | A searchable index of a Go framework's API and your own project ([more](https://bellui.com/tools/clair/)) |
+| [Uploader](https://github.com/belluikit/uploader) | Resumable file upload and download over gRPC, with a Go SDK ([more](https://bellui.com/tools/uploader/)) |
 | [ironclad](https://github.com/belluikit/ironclad) | Encrypted, signed and licensed containers for distributing software |
 | [homebrew-tap](https://github.com/belluikit/homebrew-tap) | Homebrew formulae for belluikit tools |
 
 ## Contributing
 
-Issues and pull requests are welcome in each repository. Please read the
+Issues and pull requests are welcome in each repository; see
+[Support](https://bellui.com/support/) for where things go. Please read the
 [Code of Conduct](https://github.com/belluikit/bellui/blob/main/CODE_OF_CONDUCT.md).
-Report security issues privately through each repository's **Security** tab.
+Report security problems privately to
+[bellui@trendvidia.com](mailto:bellui@trendvidia.com), not in public issues.
