@@ -27,8 +27,8 @@ go get github.com/belluikit/bellui@latest
   [code editor](https://bellui.com/extensions/editor/),
   [graphs](https://bellui.com/extensions/dag/) and
   [media](https://bellui.com/extensions/mmedia/)
-- **Gallery:** every widget, theme and extension in one app,
-  [toured on the website](https://bellui.com/gallery/)
+- **Gallery:** [gallery](https://github.com/belluikit/gallery), every widget,
+  theme and extension in one app ([tour](https://bellui.com/gallery/))
 
 ## Libraries behind Bellui
 
